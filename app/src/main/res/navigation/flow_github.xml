@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flow_github"
+    app:startDestination="@id/RepositoryListFragment">
+
+    <fragment
+        android:id="@+id/RepositoryListFragment"
+        android:name="com.pedromoura.itau.presentation.repository.RepositoryListFragment"
+        tools:layout="@layout/fragment_repository_list">
+
+        <action
+            android:id="@+id/action_fragment_list_to_fragment_pull_request"
+            app:destination="@id/PullRequestsFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/PullRequestsFragment"
+        android:name="com.pedromoura.itau.presentation.pull_request.PullRequestFragment"
+        tools:layout="@layout/fragment_pull_request">
+    </fragment>
+
+</navigation>
