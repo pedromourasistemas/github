@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Challenge - Lib Github</string>
+
+    <!-- Accessibility -->
+    <string name="name_repository">Nome do Repositório</string>
+    <string name="description_repository">Descrição do Repositório</string>
+    <string name="name_creator">Nome do Criador</string>
+    <string name="full_name_creator">Nome Completo do Criado</string>
+    <string name="forks_number">Número de Forks do Repositorio</string>
+    <string name="stars_number">Número de Estrelas dadas no Repositório</string>
+    <string name="title_pull">Título do Pull Request</string>
+    <string name="description_pull">Descrição do Pull Request</string>
 </resources>

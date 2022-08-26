@@ -12,7 +12,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class GithubRepository() {
+open class GithubRepository() {
 
     private val repositoryResponse: MutableLiveData<List<RepositoryModel>> = MutableLiveData<List<RepositoryModel>>()
 

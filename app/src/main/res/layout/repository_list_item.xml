@@ -42,7 +42,7 @@
                         android:textColor="@color/black"
                         android:textAllCaps="true"
                         android:textSize="14dp"
-                        android:contentDescription="Nome do Repositório"
+                        android:contentDescription="@string/name_repository"
                         tools:text="Nome Repositorio" />
 
                 </LinearLayout>
@@ -61,7 +61,7 @@
                         android:ellipsize="end"
                         android:maxLines="2"
                         android:textSize="10dp"
-                        android:contentDescription="Descrição do Repositório"
+                        android:contentDescription="@string/description_repository"
                         tools:text="Descrição do repositório lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum" />
 
                     <LinearLayout
@@ -91,7 +91,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/black"
-                                android:contentDescription="Nome do Criador"
+                                android:contentDescription="@string/name_creator"
                                 android:textSize="10sp"
                                 tools:text="pedromourasistemas" />
 
@@ -101,7 +101,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="@color/black"
-                                android:contentDescription="Nome Completo do Criado"
+                                android:contentDescription="@string/full_name_creator"
                                 android:textSize="10sp"
                                 tools:text="Pedro Moura" />
 
@@ -133,7 +133,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:textColor="@color/black"
-                        android:contentDescription="Número de Forks do Repositorio"
+                        android:contentDescription="@string/forks_number"
                         tools:text="640" />
 
                     <ImageView
@@ -152,7 +152,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:contentDescription="Número de Estrelas dadas no Repositório"
+                        android:contentDescription="@string/stars_number"
                         android:textColor="@color/black"
                         tools:text="640" />
 

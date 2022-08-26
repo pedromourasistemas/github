@@ -41,7 +41,7 @@
                         android:textColor="@color/black"
                         android:textAllCaps="true"
                         android:textSize="@dimen/text_size_2"
-                        android:contentDescription="Título do Pull Request"
+                        android:contentDescription="@string/title_pull"
                         tools:text="Titulo Pull Request" />
 
                 </LinearLayout>
@@ -60,7 +60,7 @@
                         android:ellipsize="end"
                         android:maxLines="2"
                         android:textSize="@dimen/text_size_1"
-                        android:contentDescription="Descrição do Pull Request"
+                        android:contentDescription="@string/description_pull"
                         tools:text="Descrição do pull lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum" />
 
                 </LinearLayout>
@@ -96,7 +96,7 @@
                             android:layout_marginTop="5dp"
                             android:textColor="@color/black"
                             android:textSize="@dimen/text_size_0"
-                            android:contentDescription="Nome do Criador"
+                            android:contentDescription="@string/name_creator"
                             tools:text="pedromourasistemas" />
 
                         <TextView
@@ -105,7 +105,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:textColor="@color/black"
-                            android:contentDescription="Nome Completo do Criado"
+                            android:contentDescription="@string/full_name_creator"
                             android:textSize="@dimen/text_size_0"
                             tools:text="Pedro Moura" />
 
